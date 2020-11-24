@@ -1,0 +1,20 @@
+---
+title: "Group 40 CA pollution burden"
+author: "Roshni Katrak-Adefowora and Jacey Van Wert"
+date: "11/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+
+```{r}
+ces <- read_csv(here("data", "ces3demographics.csv")) %>% 
+  clean_names()
+```
+
