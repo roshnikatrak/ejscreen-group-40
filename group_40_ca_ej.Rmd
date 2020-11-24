@@ -29,3 +29,5 @@ ggplot(ces, aes(x = white_percent, y = ces_3_0_score))+
   theme_minimal()
 ```
 
+
+There appears to be a negative relationship between white population and pollution burden score: as the white population increases, the pollution burden score decreases. 
